@@ -1,0 +1,8 @@
+# Bundler
+.bundle
+Gemfile.lock
+pkg/*
+bin/
+
+# Sys files
+.DS_Store
