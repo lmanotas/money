@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.description = "Use this gem to converts money currencies"
   s.authors     = ["Luis Manotas"]
   s.email       = 'lgerman@gmail.com'
-  s.files       = ["lib/money.rb"]
+  s.files       = ["lib/money.rb", "lib/money/convertible.rb", "lib/money/operations.rb", "lib/money/arithmetic.rb"]
   s.homepage    = 'http://rubygems.org/gems/money'
   s.license     = 'MIT'
 

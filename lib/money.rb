@@ -1,18 +1,9 @@
-require './lib/money/operations'
-require './lib/money/arithmetic'
+require 'money/convertible'
+require 'money/operations'
+require 'money/arithmetic'
 
 class Money
-
-  @@base_currency = ''
-  @@rates = {}
-
-  class << self
-    def conversion_rates(base_currency, rates = {})
-      @@base_currency = base_currency
-      @@rates = rates
-    end
-  end
-  
+  include Money::Convertible
   include Money::Operations
   include Money::Arithmetic
 
