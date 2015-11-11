@@ -59,7 +59,7 @@ twenty_dollars < fifty_eur             # => true
 
 # Contributing to Money
 
-Just fork it, craete your feature branch and send a pull request.
+Just fork it, create your feature branch and send a pull request.
 
 ````
 $ git clone git@github.com:lmanotas/money.git
